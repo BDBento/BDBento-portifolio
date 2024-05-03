@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background: #0F172A;
+    color: #fff;
+}
+.portifolio-conteudo-bento{
+    display: flex;
+    flex-direction: row;
+}
+.card-fixo{
+    position: sticky;
+    top: 0;
+    left: 0;  
+    width: 40%;
+    height: 100vh;
+    display: block;
+    padding: 6rem 1rem;
+    
+}
+
+.card-fixo a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+.card-fixo h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.card-fixo p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color:#7184AB
+}
+
+.portifolio-conteudo{
+    width:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 6rem 2rem;
+}
+.portifolio-conteudo p{
+    font-size: .9rem;
+    line-height: 1.5;
+    color:#7184AB
+}
+
+@media (max-width: 768px){
+    .card-fixo{
+        width: 100%;
+    }
+}
+
+.hover{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at var(--x) var(--y),transparent 5%,rgba(0, 0, 0, 0.6) 50%);
+}
+
+.apresentaacao a{
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+    transition: all 0.3s ease;
+}
+
+.portifolio-conteudo-projetos{
+   width: 100%; 
+}
+.portifolio-conteudo-projetos .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #182035;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.portifolio-conteudo-projetos .card:hover{
+    transform: translateY(-10px);
+}
+.portifolio-conteudo-projetos .card .imagens img{
+    width: 45%;
+    height: 400px;    
+    object-fit: cover;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin: 12px;
+}
+.portifolio-conteudo-projetos .card .imagens-100 img{
+    width: 95%;   
+    object-fit: cover;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin: 12px;
+}
+.portifolio-conteudo-projetos .card h5{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #7184AB
+}
+.link-referencias{
+    color: #fff;
+    text-decoration: none;
+}
+.redes-de-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.redes-de-contato a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+#observacao{
+    margin-top: 2rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    color:#7184AB
+}
