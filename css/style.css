@@ -142,3 +142,41 @@ body{
     line-height: 1.5;
     color:#7184AB
 }
+
+#contato{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color:#7184AB;
+   
+}
+#contato a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.menu-navegacao{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    height: 50vh;
+    background-color: #182035;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    
+}
+.menu-navegacao a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem;
+    transition: all 0.3s ease;
+}
+.menu-navegacao a:hover{
+    color: #7184AB;
+}
+.menu-navegacao ul{
+    list-style: none;
+}
