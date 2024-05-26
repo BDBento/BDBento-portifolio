@@ -46,7 +46,7 @@ body{
 }
 
 .portifolio-conteudo{
-    width:50% ;
+    width:58% ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,4 +179,24 @@ body{
 }
 .menu-navegacao ul{
     list-style: none;
+}
+
+@media(max-width: 768px){
+    .portifolio-conteudo-bento{
+        display: block;
+    }
+    .portifolio-conteudo{
+        width: 100%;
+    }
+    .portifolio-conteudo-projetos .card .imagens img{
+        width: 100%;
+        height: 300px;
+    }
+    .portifolio-conteudo-projetos .card .imagens-100 img{
+        width: 100%;
+        height: 300px;
+    }
+    .menu-navegacao{
+        height: 100vh;
+    }
 }
